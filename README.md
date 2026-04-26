@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Credit Compass
 
-## Getting Started
+Credit Compass is a Next.js web app that helps users understand loan readiness with AI-powered eligibility insights and improvement recommendations for UAE lending scenarios.
 
-First, run the development server:
+## Project Links
+
+- Live App: [https://credit-compass-96lh.vercel.app/](https://credit-compass-96lh.vercel.app/)
+- GitHub Repository: [https://github.com/PrajaktaShelar1991/credit-compass](https://github.com/PrajaktaShelar1991/credit-compass)
+
+## Key Features
+
+- **Credit readiness flow**: input financial profile and get eligibility results.
+- **AI insights**: receive practical tips to improve loan approval chance.
+- **Dashboard view**: score trend, recommendations, and active loan summary.
+- **Partner banks flow**: compare sample UAE partner bank options.
+- **Responsive UI**: optimized for desktop and mobile navigation.
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Recharts
+
+## Run Locally
+
+### Prerequisites
+
+- Node.js 20+ recommended
+- npm
+
+### Steps
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start development server:
+   ```bash
+   npm run dev
+   ```
+3. Open:
+   - [http://localhost:3000](http://localhost:3000)
+
+## Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy and Add Link to Resume (Beginner Friendly)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If your app runs only on `localhost`, other people cannot open it. You need to deploy it on the internet.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Recommended: Vercel (free and easiest for Next.js)
 
-## Learn More
+1. Create a GitHub account (if you do not have one).
+2. Push this project to a GitHub repository.
+3. Go to [https://vercel.com](https://vercel.com) and sign in with GitHub.
+4. Click **Add New -> Project**.
+5. Import your `credit-compass` GitHub repository.
+6. Keep default settings and click **Deploy**.
+7. Copy the generated URL (example: `https://credit-compass.vercel.app`).
+8. Add that URL to your resume under project links.
 
-To learn more about Next.js, take a look at the following resources:
+### Resume Link Tips
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Use a short label like: `Credit Compass - Live Demo`
+- Add both links if possible:
+  - Live App URL: [https://credit-compass-96lh.vercel.app/](https://credit-compass-96lh.vercel.app/)
+  - GitHub Repository URL: [https://github.com/PrajaktaShelar1991/credit-compass](https://github.com/PrajaktaShelar1991/credit-compass)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Suggested Resume Entry
 
-## Deploy on Vercel
+`Credit Compass (Next.js, React, TypeScript) - AI-assisted credit readiness and partner-bank comparison web app for UAE users.`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Example with links:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`Credit Compass | Live Demo:` [https://credit-compass-96lh.vercel.app/](https://credit-compass-96lh.vercel.app/) `| GitHub:` [https://github.com/PrajaktaShelar1991/credit-compass](https://github.com/PrajaktaShelar1991/credit-compass)
+
+## Project Structure (High Level)
+
+- `app/` - routes/pages
+- `components/` - reusable UI and layout components
+- `public/` - static assets
+
+## Scripts
+
+- `npm run dev` - start dev server
+- `npm run build` - production build
+- `npm run start` - run production server
+- `npm run lint` - run lint checks
