@@ -1,94 +1,61 @@
-# Credit Compass
+# credit-compass
+AI-powered credit readiness and loan eligibility assistant for UAE users
 
-Credit Compass is a Next.js web app that helps users understand loan readiness with AI-powered eligibility insights and improvement recommendations for UAE lending scenarios.
+# 💳 Credit Compass (AI Credit Readiness Assistant)
 
-## Project Links
+## 📌 Problem
+Many users do not know their loan readiness before applying, which can lead to rejection, delays, or poor loan offers.
 
-- Live App: [https://credit-compass-96lh.vercel.app/](https://credit-compass-96lh.vercel.app/)
-- GitHub Repository: [https://github.com/PrajaktaShelar1991/credit-compass](https://github.com/PrajaktaShelar1991/credit-compass)
+## 💡 Solution
+Credit Compass provides AI-powered eligibility insights, personalized credit improvement tips, and partner-bank comparison guidance in one place.
 
-## Key Features
+## 🧠 How It Works
 
-- **Credit readiness flow**: input financial profile and get eligibility results.
-- **AI insights**: receive practical tips to improve loan approval chance.
-- **Dashboard view**: score trend, recommendations, and active loan summary.
-- **Partner banks flow**: compare sample UAE partner bank options.
-- **Responsive UI**: optimized for desktop and mobile navigation.
+1. Input Profile → User enters salary, liabilities, credit usage, and payment behavior  
+2. AI Analysis → System calculates eligibility score and approval chance  
+3. Insights Engine → App suggests practical actions to improve readiness  
+4. Dashboard View → User tracks score trend, risk level, and recommendations  
+5. Partner Banks Flow → User compares eligible banks, rates, and approval ETA  
 
-## Tech Stack
+## 🏗️ Product Flow
 
+- Home page with UAE credit intelligence positioning
+- Input form for financial profile details
+- Results page with eligibility score and AI insights
+- Dashboard with credit trend and active loans summary
+- Partner banks comparison and application tracking flow
+
+## 📊 Demo Use Case
+User wants a personal loan but is unsure about approval chances.  
+Credit Compass analyzes profile inputs, returns a readiness score, and recommends focused actions (like lowering card utilization) before applying.
+
+## 🔗 Project Links
+
+- [Live App](https://credit-compass-96lh.vercel.app/)
+- [GitHub Repository](https://github.com/PrajaktaShelar1991/credit-compass)
+
+## 🚀 Impact
+- Better loan readiness awareness before application
+- Faster, clearer decision support for users
+- Practical credit behavior guidance through AI recommendations
+
+## 🧰 Tech Stack
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
 - Recharts
 
-## Run Locally
-
-### Prerequisites
-
-- Node.js 20+ recommended
-- npm
-
-### Steps
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start development server:
-   ```bash
-   npm run dev
-   ```
-3. Open:
-   - [http://localhost:3000](http://localhost:3000)
-
-## Build for Production
+## ▶️ Run Locally
 
 ```bash
-npm run build
-npm run start
+npm install
+npm run dev
 ```
 
-## Deploy and Add Link to Resume (Beginner Friendly)
+Open `http://localhost:3000`
 
-If your app runs only on `localhost`, other people cannot open it. You need to deploy it on the internet.
-
-### Recommended: Vercel (free and easiest for Next.js)
-
-1. Create a GitHub account (if you do not have one).
-2. Push this project to a GitHub repository.
-3. Go to [https://vercel.com](https://vercel.com) and sign in with GitHub.
-4. Click **Add New -> Project**.
-5. Import your `credit-compass` GitHub repository.
-6. Keep default settings and click **Deploy**.
-7. Copy the generated URL (example: `https://credit-compass.vercel.app`).
-8. Add that URL to your resume under project links.
-
-### Resume Link Tips
-
-- Use a short label like: `Credit Compass - Live Demo`
-- Add both links if possible:
-  - Live App URL: [https://credit-compass-96lh.vercel.app/](https://credit-compass-96lh.vercel.app/)
-  - GitHub Repository URL: [https://github.com/PrajaktaShelar1991/credit-compass](https://github.com/PrajaktaShelar1991/credit-compass)
-
-## Suggested Resume Entry
-
-`Credit Compass (Next.js, React, TypeScript) - AI-assisted credit readiness and partner-bank comparison web app for UAE users.`
-
-Example with links:
-
-`Credit Compass | Live Demo:` [https://credit-compass-96lh.vercel.app/](https://credit-compass-96lh.vercel.app/) `| GitHub:` [https://github.com/PrajaktaShelar1991/credit-compass](https://github.com/PrajaktaShelar1991/credit-compass)
-
-## Project Structure (High Level)
-
-- `app/` - routes/pages
-- `components/` - reusable UI and layout components
-- `public/` - static assets
-
-## Scripts
-
-- `npm run dev` - start dev server
-- `npm run build` - production build
-- `npm run start` - run production server
-- `npm run lint` - run lint checks
+## 🧠 Learnings
+- Clear financial UX improves user trust
+- Eligibility explanation is as important as score output
+- Combining insights + bank options creates stronger user value
