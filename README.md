@@ -46,15 +46,6 @@ Credit Compass analyzes profile inputs, returns a readiness score, and recommend
 - Tailwind CSS
 - Recharts
 
-## ▶️ Run Locally
-
-```bash
-npm install
-npm run dev
-```
-
-Open `http://localhost:3000`
-
 ## 🧠 Learnings
 - Clear financial UX improves user trust
 - Eligibility explanation is as important as score output
